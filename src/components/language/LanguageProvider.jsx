@@ -3,12 +3,10 @@ import { dictionaryList } from '../../context/LanguageContext';
 import LanguageContext from '../../context/LanguageContext';
 
 export const LanguageProvider = ({ children }) => {
-  const defaultLanguage = window.localStorage.getItem('rcml-lang') || 'pl';
-  const [userLanguage, setUserLanguage] = useState(defaultLanguage);
+  const [userLanguage, setUserLanguage] = useState('en');
 
   const userLanguageChange = (newLanguage) => {
     setUserLanguage(newLanguage);
-    window.localStorage.setItem('rcml-lang', newLanguage);
   };
 
   const provider = {

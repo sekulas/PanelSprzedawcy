@@ -28,7 +28,7 @@ const LoginPage = () => {
       {
         isAuthenticated ? (
           <>
-          <Navigate to="/home" />
+          <Navigate to="/" />
           </>
         )
           : (
