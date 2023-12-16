@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "title": "Panel Sprzedawcy",
+    "language": "Język",
+    "logout": "Wyloguj"
+  },
+  "loginPage": {
+    "title": "Logowanie",
+    "password": "Hasło",
+    "passwordInput": "Wprowadź tutaj hasło...",
+    "login": "Zaloguj się",
+    "username": "Nazwa użytkownika",
+    "usernameInput": "Wprowadź tutaj nazwę użytkownika..."
+  }
+}

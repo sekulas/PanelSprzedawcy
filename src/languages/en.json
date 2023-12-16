@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "title": "Sellers Panel",
+    "language": "Language",
+    "logout": "Log out"
+  },
+  "loginPage": {
+    "title": "Logging in",
+    "password": "Password",
+    "passwordInput": "Enter your password here...",
+    "input": "Write here...",
+    "login": "Log in",
+    "username": "Username",
+    "usernameInput": "Enter your username here..."
+  }
+}
