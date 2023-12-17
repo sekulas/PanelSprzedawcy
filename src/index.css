@@ -82,3 +82,23 @@ code {
   font-size: 1.5em;
   text-transform: uppercase;
 }
+
+#home-page {
+  display: flex;
+}
+
+.home-page_left-column {
+  width: 40%;
+}
+
+.home-page_right-column {
+  width: 60%;
+}
+
+.widget_header {
+  width: 100%;
+}
+
+.widget_icon {
+  
+}

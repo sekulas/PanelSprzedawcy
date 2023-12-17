@@ -11,7 +11,7 @@ const QualityWidget = () => {
             <h3>
                 Jakość sprzedaży
             </h3>
-            <GoToIcon/>
+            <GoToIcon className="widget_icon"/>
         </div>
         <div>
 

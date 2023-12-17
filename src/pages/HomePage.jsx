@@ -6,11 +6,15 @@ import OpinionWidget from "../components/widget/OpinionWidget";
 const HomePage = () => {
   return (
     <div id="home-page">
+      <div className="home-page_left-column">
         <QualityWidget></QualityWidget>
         <OrderWidget></OrderWidget>
         <RankingWidget></RankingWidget>
+      </div>
+      <div className="home-page_right-column">
         <ChartWidget></ChartWidget>
         <OpinionWidget></OpinionWidget>
+      </div>
     </div>
   );
 }

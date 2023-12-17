@@ -11,7 +11,7 @@ const OrderWidget = () => {
             <h3>
                 Zamówienie
             </h3>
-            <GoToIcon/>
+            <GoToIcon className="widget_icon"/>
         </div>
         <div>
 
