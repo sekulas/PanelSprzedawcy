@@ -125,3 +125,79 @@ code {
   width: 33%;
   text-align: center;
 }
+
+.quality-widget_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.quality-widget_content_elem {
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+}
+
+.chart-widget_content_menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.opinion-widget_content_choice {
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.chart-widget_content_choice {
+  border: 1px solid black;
+  width: 33%;
+  text-align: center;
+}
+
+.chart-widget_content_choice_option_2 {
+  width: 50%;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  background-color: #7A8CFF;
+}
+
+.chart-widget_content_choice_option_3 {
+  width: 33%;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  background-color: #7A8CFF;
+}
+
+.opinion-widget_content_choice_option_3 {
+  width: 33%;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  background-color: #7A8CFF;
+}
+
+.chart-widget_content_choice_option_clicked {
+  background-color: #5A6CDF;
+}
+
+.opinion-widget_content_choice_option_clicked {
+  background-color: #5A6CDF;
+}
+
+.chart-widget_content_chart {
+  text-align: center;
+  height: 300px;
+}
+
+.opinion {
+  display: flex;
+  border: 1px solid black;
+}
+
+.opinion_content {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}

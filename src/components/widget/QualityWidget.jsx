@@ -13,8 +13,15 @@ const QualityWidget = () => {
             </h3>
             <GoToIcon className="widget_icon" onClick={onClickWidget}/>
         </div>
-        <div>
-
+        <div className="quality-widget_content">
+            <div className="quality-widget_content_elem">
+                <h3>Kategoria jakości</h3> 
+                <h3>S</h3>
+            </div>
+            <div className="quality-widget_content_elem">
+                <h3>Ocena jakości</h3>
+                <h3>x/y</h3>
+            </div>
         </div>
     </div>);
 }

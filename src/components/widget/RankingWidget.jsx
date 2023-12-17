@@ -6,8 +6,10 @@ const RankingWidget = () => {
                 Ranking ofert
             </h3>
         </div>
-        <div>
+        <div className="ranking-widget_table">
 
+        <div className="ranking-widget_table_header">
+        </div>
         </div>
     </div>);
 }
