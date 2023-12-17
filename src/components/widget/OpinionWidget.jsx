@@ -6,12 +6,12 @@ const OpinionWidget = () => {
         navigate("/opinion");
     }
     return (
-    <div className="widget" onClick={onClickWidget}>
+    <div className="widget" >
         <div className="widget_header">
             <h3>
                 Opinie kupujących
             </h3>
-            <GoToIcon className="widget_icon"/>
+            <GoToIcon className="widget_icon" onClick={onClickWidget}/>
         </div>
         <div>
 
