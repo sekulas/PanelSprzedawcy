@@ -1,7 +1,10 @@
 import Opinion  from "../opinion/Opinion"
 import { useNavigate } from "react-router-dom";
 import { ReactComponent as GoToIcon } from "../../assets/icons/go_to_page.svg";
+import { useContext } from "react";
+import LanguageContext from '../../context/LanguageContext';
 const OpinionWidget = () => {
+    const { dictionary } = useContext(LanguageContext);
     const navigate = useNavigate();
     function onClickWidget() {
         navigate("/opinion");
@@ -10,7 +13,7 @@ const OpinionWidget = () => {
     <div className="widget" >
         <div className="widget_header">
             <h3>
-                Opinie kupujących
+                {dictionary.sellersPanel.customersOpinions.title}
             </h3>
             <GoToIcon className="widget_icon" onClick={onClickWidget}/>
         </div>           

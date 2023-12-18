@@ -1,6 +1,9 @@
+import { useContext } from "react";
+import LanguageContext from '../../context/LanguageContext';
 import { useNavigate } from "react-router-dom";
 import { ReactComponent as GoToIcon } from "../../assets/icons/go_to_page.svg";
 const OrderWidget = () => {
+    const { dictionary } = useContext(LanguageContext);
     const navigate = useNavigate();
     function onClickWidget() {
         navigate("/order");
@@ -9,21 +12,21 @@ const OrderWidget = () => {
     <div className="widget">
         <div className="widget_header">
             <h3>
-                Zamówienie
+                {dictionary.sellersPanel.orders.title}
             </h3>
             <GoToIcon className="widget_icon" onClick={onClickWidget}/>
         </div>
         <div className="order-widget_content">
             <div className="order-widget_content_elem">
-                <h3>Nieopłacone</h3>
+                <h3>{dictionary.sellersPanel.orders.unpaid}</h3>
                 <h3>20</h3>
             </div>
             <div className="order-widget_content_elem">
-                <h3>Niewysłane</h3>
+                <h3>{dictionary.sellersPanel.orders.unsent}</h3>
                 <h3>20</h3>
             </div>
             <div className="order-widget_content_elem">
-                <h3>Zwroty</h3>
+                <h3>{dictionary.sellersPanel.orders.returned}</h3>
                 <h3>20</h3>
             </div>
         </div>
