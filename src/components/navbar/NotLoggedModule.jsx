@@ -12,6 +12,7 @@ const NotLoggedModule = () => {
         <LanguageSelector />
       </div>
         <LightModeIcon />
+        <button style={{visibility: "hidden"}}>{dictionary.navbar.logout}</button>
     </div>
   )
 }
