@@ -11,5 +11,34 @@
     "login": "Zaloguj się",
     "username": "Nazwa użytkownika",
     "usernameInput": "Wprowadź tutaj nazwę użytkownika..."
+  },
+  "sellersPanel": {
+    "salesQuality": {
+      "title": "Jakosc sprzedazy",
+      "qualityCategory": "Kategoria jakosci",
+      "qualityAssessment": "Ocena jakosci"
+    },
+    "orders": {
+      "title": "Zamowienia",
+      "unpaid": "Niezaplacone",
+      "unsent": "Niewyslane",
+      "returned": "Zwroty"
+    },
+    "offersRanking": {
+      "title": "Ranking ofert",
+      "photo": "Zdjecie",
+      "name": "Nazwa",
+      "sold": "Sprzedanych",
+      "uniqueViews": "Unikalne wyswietlenie"
+    },
+    "salesChart": {
+      "title": "Wykres sprzedazy",
+      "measurement": "Miara",
+      "chart": "Wykres",
+      "period": "Okres czasu"
+    },
+    "customersOpinions": {
+      "title": "Opinie klientow"
+    } 
   }
 }

@@ -8,6 +8,9 @@ import ProtectedPage from "./pages/ProtectedPage";
 import HomePage from "./pages/HomePage";
 import AuthProvider from "./components/auth/AuthProvider";
 import LanguageProvider from "./components/language/LanguageProvider";
+import QualityPage from "./pages/QualityPage"
+import OrderPage from "./pages/OrderPage"
+import OpinionsPage from "./pages/OpinionsPage"
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,18 @@ const router = createBrowserRouter([
                 index: true,
                 element: <HomePage />,
               },
+              {
+                path:"quality",
+                element: <QualityPage/>
+              },
+              {
+                path:"order",
+                element: <OrderPage />
+              },
+              {
+                path:"opinion",
+                element: <OpinionsPage/>
+              }
             ],
           },
         ],

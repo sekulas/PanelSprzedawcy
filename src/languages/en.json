@@ -12,5 +12,34 @@
     "login": "Log in",
     "username": "Username",
     "usernameInput": "Enter your username here..."
+  },
+  "sellersPanel": {
+    "salesQuality": {
+      "title": "Sales Quality",
+      "qualityCategory": "Quality Category",
+      "qualityAssessment": "Quality Assessment"
+    },
+    "orders": { 
+      "title": "Orders",
+      "unpaid": "Unpaid",
+      "unsent": "Unsent",
+      "returned": "Returned"
+    },
+    "offersRanking": {
+      "title": "Offers Ranking",
+      "photo": "Photo",
+      "name": "Name",
+      "sold": "Sold",
+      "uniqueViews": "Unique views"
+    },
+    "salesChart": {
+      "title": "Sales Chart",
+      "measurement": "Measurement",
+      "chart": "Chart",
+      "period": "Period"
+    },
+    "customersOpinions": {
+      "title": "Customers Opinions"
+    }
   }
 }
