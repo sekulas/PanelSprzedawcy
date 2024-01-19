@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { languageOptions } from '../../context/LanguageContext';
-import LanguageContext from '../../context/LanguageContext';
+import { languageOptions } from './LanguageContext';
+import LanguageContext from './LanguageContext';
 
 export const LanguageSelector = () => {
   const { userLanguage, userLanguageChange } = useContext(LanguageContext);

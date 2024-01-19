@@ -1,19 +1,20 @@
-import QualityWidget from "../components/widget/QualityWidget"
-import OrderWidget from "../components/widget/OrderWidget"
-import ChartWidget from "../components/widget/ChartWidget";
-import RankingWidget from "../components/widget/RankingWidget";
-import OpinionWidget from "../components/widget/OpinionWidget";
+import QualityWidget from "../features/widgets/quality/QualityWidget";
+import OrderWidget from "../features/widgets/orders/OrderWidget"
+import ChartWidget from "../features/widgets/chart/ChartWidget";
+import RankingWidget from "../features/widgets/offers/RankingWidget";
+import OpinionWidget from "../features/widgets/quality/QualityWidget";
+
 const HomePage = () => {
   return (
     <div id="home-page">
       <div className="home-page_left-column">
-        <QualityWidget></QualityWidget>
-        <OrderWidget></OrderWidget>
-        <RankingWidget></RankingWidget>
+        <QualityWidget/>
+        <OrderWidget/>
+        <RankingWidget/>
       </div>
       <div className="home-page_right-column">
-        <ChartWidget></ChartWidget>
-        <OpinionWidget></OpinionWidget>
+        <ChartWidget/>
+        <OpinionWidget/>
       </div>
     </div>
   );

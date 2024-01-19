@@ -1,6 +1,6 @@
-import Offer from "../offer/Offer";
+import Offer from "./Offer";
 import { useContext } from "react";
-import LanguageContext from '../../context/LanguageContext';
+import LanguageContext from '../../languages/LanguageContext';
 const RankingWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     return (

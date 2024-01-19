@@ -1,7 +1,7 @@
 import { ReactComponent as LightModeIcon } from "../../assets/icons/light_mode.svg";
-import LanguageSelector from "../language/LanguageSelector";
+import LanguageSelector from "../../features/languages/LanguageSelector";
 import { useContext } from "react";
-import LanguageContext from "../../context/LanguageContext";
+import LanguageContext from "../../features/languages/LanguageContext";
 
 const NotLoggedModule = () => {
   const { dictionary } = useContext(LanguageContext);

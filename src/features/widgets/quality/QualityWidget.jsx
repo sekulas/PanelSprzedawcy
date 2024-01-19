@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as GoToIcon } from "../../assets/icons/go_to_page.svg";
-import LanguageContext from '../../context/LanguageContext';
+import { ReactComponent as GoToIcon } from "../../../assets/icons/go_to_page.svg";
+import LanguageContext from '../../languages/LanguageContext';
 
 const QualityWidget = () => {
     const { dictionary } = useContext(LanguageContext);

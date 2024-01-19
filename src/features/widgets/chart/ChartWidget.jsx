@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import LanguageContext from '../../context/LanguageContext';
+import LanguageContext from '../../languages/LanguageContext';
 const ChartWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     return (

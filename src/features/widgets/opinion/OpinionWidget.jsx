@@ -1,8 +1,8 @@
-import Opinion  from "../opinion/Opinion"
+import Opinion  from "./Opinion"
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as GoToIcon } from "../../assets/icons/go_to_page.svg";
+import { ReactComponent as GoToIcon } from "../../../assets/icons/go_to_page.svg";
 import { useContext } from "react";
-import LanguageContext from '../../context/LanguageContext';
+import LanguageContext from '../../languages/LanguageContext';
 const OpinionWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     const navigate = useNavigate();

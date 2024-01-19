@@ -1,6 +1,6 @@
 import { createContext } from 'react';
-import pl from '../languages/pl.json';
-import en from '../languages/en.json';
+import pl from './available-languages/pl.json';
+import en from './available-languages/en.json';
 
 export const dictionaryList = { en, pl };
 

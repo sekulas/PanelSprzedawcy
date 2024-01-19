@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import AuthContext from "../context/AuthContext";
-import LanguageContext from "../context/LanguageContext";
+import AuthContext from "../../features/auth/AuthContext";
+import LanguageContext from "../../features/languages/LanguageContext"
 
-import LoggedModule from "../components/navbar/LoggedModule";
-import NotLoggedModule from "../components/navbar/NotLoggedModule";
+import LoggedModule from "../navbar/LoggedModule"
+import NotLoggedModule from "../navbar/NotLoggedModule";
 
 const Navbar = () => {
   const { isAuthenticated} = useContext(AuthContext);

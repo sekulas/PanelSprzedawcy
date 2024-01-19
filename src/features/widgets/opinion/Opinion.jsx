@@ -1,4 +1,4 @@
-import { ReactComponent as HappyIcon } from "../../assets/icons/happy_reaction.svg";
+import { ReactComponent as HappyIcon } from "../../../assets/icons/happy.svg";
 const Opinion = () => {
     return (
         <div className="opinion">

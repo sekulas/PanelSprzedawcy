@@ -6,11 +6,11 @@ import AppLayout from "./layouts/AppLayout";
 import LoginPage from "./pages/LoginPage";
 import ProtectedPage from "./pages/ProtectedPage";
 import HomePage from "./pages/HomePage";
-import AuthProvider from "./components/auth/AuthProvider";
-import LanguageProvider from "./components/language/LanguageProvider";
-import QualityPage from "./pages/QualityPage"
-import OrderPage from "./pages/OrderPage"
-import OpinionsPage from "./pages/OpinionsPage"
+import AuthProvider from "./features/auth/AuthProvider";
+import LanguageProvider from "./features/languages/LanguageProvider";
+import QualityPage from "./pages/QualityPage";
+import OrderPage from "./pages/OrderPage";
+import OpinionsPage from "./pages/OpinionsPage";
 
 const router = createBrowserRouter([
   {
@@ -31,17 +31,17 @@ const router = createBrowserRouter([
                 element: <HomePage />,
               },
               {
-                path:"quality",
-                element: <QualityPage/>
+                path: "quality",
+                element: <QualityPage />,
               },
               {
-                path:"order",
-                element: <OrderPage />
+                path: "order",
+                element: <OrderPage />,
               },
               {
-                path:"opinion",
-                element: <OpinionsPage/>
-              }
+                path: "opinion",
+                element: <OpinionsPage />,
+              },
             ],
           },
         ],

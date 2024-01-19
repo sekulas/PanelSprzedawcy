@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import LanguageContext from '../../context/LanguageContext';
+import LanguageContext from '../../languages/LanguageContext';
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as GoToIcon } from "../../assets/icons/go_to_page.svg";
+import { ReactComponent as GoToIcon } from "../../../assets/icons/go_to_page.svg"
 const OrderWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     const navigate = useNavigate();

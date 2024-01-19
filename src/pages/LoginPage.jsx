@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
 import { Navigate } from 'react-router-dom';
-import AuthContext from '../context/AuthContext';
-import LanguageContext from '../context/LanguageContext';
+import AuthContext from '../features/auth/AuthContext';
+import LanguageContext from '../features/languages/LanguageContext';
 
 const LoginPage = () => {
   const { isAuthenticated, login } = useContext(AuthContext);

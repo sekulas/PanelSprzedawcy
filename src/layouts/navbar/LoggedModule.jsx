@@ -1,10 +1,10 @@
 import { ReactComponent as UserIcon } from "../../assets/icons/user.svg";
 import { ReactComponent as LightModeIcon } from "../../assets/icons/light_mode.svg";
-import { ReactComponent as AccountIcon } from "../../assets/icons/account.svg";
-import LanguageSelector from "../language/LanguageSelector";
+import { ReactComponent as AccountIcon } from "../../assets/icons/account.svg"
+import LanguageSelector from "../../features/languages/LanguageSelector";
 import { useContext } from "react";
-import AuthContext from "../../context/AuthContext";
-import LanguageContext from "../../context/LanguageContext";
+import AuthContext from "../../features/auth/AuthContext";
+import LanguageContext from "../../features/languages/LanguageContext";
 
 const LoggedModule = () => {
   const { username, logout } = useContext(AuthContext);
