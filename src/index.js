@@ -11,6 +11,7 @@ import LanguageProvider from "./features/languages/LanguageProvider";
 import QualityPage from "./pages/QualityPage";
 import OrderPage from "./pages/OrderPage";
 import OpinionsPage from "./pages/OpinionsPage";
+import ShopProvider from "./features/multiple-shop-accounts/ShopProvider";
 
 const router = createBrowserRouter([
   {
@@ -56,7 +57,9 @@ root.render(
   <React.StrictMode>
     <LanguageProvider>
       <AuthProvider>
-        <RouterProvider router={router} />
+        <ShopProvider>
+          <RouterProvider router={router} />
+        </ShopProvider>
       </AuthProvider>
     </LanguageProvider>
   </React.StrictMode>

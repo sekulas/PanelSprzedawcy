@@ -5,6 +5,7 @@ import LanguageSelector from "../../features/languages/LanguageSelector";
 import { useContext } from "react";
 import AuthContext from "../../features/auth/AuthContext";
 import LanguageContext from "../../features/languages/LanguageContext";
+import ShopSelector from "../../features/multiple-shop-accounts/ShopSelector";
 
 const LoggedModule = () => {
   const { username, logout } = useContext(AuthContext);
@@ -18,7 +19,7 @@ const LoggedModule = () => {
       </div>
       <div className="navbar-module-child">
         <AccountIcon />
-        <p>Konto 1</p>
+        <ShopSelector/>
       </div>
       <div className="navbar-module-child">
         <p>{dictionary.navbar.language}</p>

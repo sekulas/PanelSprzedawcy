@@ -2,7 +2,7 @@ import QualityWidget from "../features/widgets/quality/QualityWidget";
 import OrderWidget from "../features/widgets/orders/OrderWidget"
 import ChartWidget from "../features/widgets/chart/ChartWidget";
 import RankingWidget from "../features/widgets/offers/RankingWidget";
-import OpinionWidget from "../features/widgets/quality/QualityWidget";
+import OpinionsWidget from "../features/widgets/opinions/OpinionsWidget";
 
 const HomePage = () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = () => {
       </div>
       <div className="home-page_right-column">
         <ChartWidget/>
-        <OpinionWidget/>
+        <OpinionsWidget/>
       </div>
     </div>
   );
