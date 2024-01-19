@@ -1,17 +1,35 @@
 import Offer from "./Offer";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import LanguageContext from '../../languages/LanguageContext';
 import WidgetTypeBox from "../WidgetTypeBox";
 
 const RankingWidget = () => {
     const { dictionary } = useContext(LanguageContext);
+    const [mostOftenChosen, setMostOftenChosen] = useState(true);
+
+    const handleClick = () => {
+        setMostOftenChosen(!mostOftenChosen);
+    };
+
     return (
     <div className="widget">
         <WidgetTypeBox widgetType={dictionary.sellersPanel.offersRanking.title}/>
         <div className="ranking-widget_content_choice">
             <h3 className="ranking-widget_content_choice_name_3">Kupowane</h3>
-            <button className="ranking-widget_content_choice_option_3 ranking-widget_content_choice_option_clicked">Najczesciej</button>
-            <button className="ranking-widget_content_choice_option_3">Najrzadziej</button>
+            <button
+                className={`ranking-widget_content_choice_option_3 ${
+                    mostOftenChosen ? 'ranking-widget_content_choice_option_clicked' : ''}`}
+                onClick={handleClick}
+            >
+                Najczesciej
+            </button>
+            <button
+                className={`ranking-widget_content_choice_option_3 ${
+                    !mostOftenChosen ? 'ranking-widget_content_choice_option_clicked' : ''}`}
+                onClick={handleClick}
+            >
+                Najrzadziej
+            </button>
         </div>
         <div className="ranking-widget_table">
         <div className="ranking-widget_table_header">

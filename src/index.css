@@ -186,6 +186,7 @@ code {
   border-radius: 0;
   border: 0;
   background-color: #7A8CFF;
+  cursor: pointer;
 }
 
 .opinion-widget_content_choice_option_clicked,
