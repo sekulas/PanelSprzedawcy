@@ -1,15 +1,13 @@
 import Offer from "./Offer";
 import { useContext } from "react";
 import LanguageContext from '../../languages/LanguageContext';
+import WidgetTypeBox from "../WidgetTypeBox";
+
 const RankingWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     return (
     <div className="widget">
-        <div className="widget_header">
-            <h3>
-                {dictionary.sellersPanel.offersRanking.title}
-            </h3>
-        </div>
+        <WidgetTypeBox widgetType={dictionary.sellersPanel.offersRanking.title}/>
         <div className="ranking-widget_content_choice">
             <h3 className="ranking-widget_content_choice_name_3">Kupowane</h3>
             <button className="ranking-widget_content_choice_option_3 ranking-widget_content_choice_option_clicked">Najczesciej</button>

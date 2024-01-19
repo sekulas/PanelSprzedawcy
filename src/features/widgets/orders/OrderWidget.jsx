@@ -1,21 +1,20 @@
 import { useContext } from "react";
 import LanguageContext from '../../languages/LanguageContext';
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as GoToIcon } from "../../../assets/icons/go_to_page.svg"
+import WidgetTypeBox from "../WidgetTypeBox";
+
 const OrderWidget = () => {
     const { dictionary } = useContext(LanguageContext);
+
     const navigate = useNavigate();
-    function onClickWidget() {
+
+    function onNavigateClicked() {
         navigate("/order");
     }
+
     return (
     <div className="widget">
-        <div className="widget_header">
-            <h3>
-                {dictionary.sellersPanel.orders.title}
-            </h3>
-            <GoToIcon className="widget_icon" onClick={onClickWidget}/>
-        </div>
+        <WidgetTypeBox widgetType={dictionary.sellersPanel.orders.title} onNavigate={onNavigateClicked}/>
         <div className="order-widget_content">
             <div className="order-widget_content_elem">
                 <h3>{dictionary.sellersPanel.orders.unpaid}</h3>

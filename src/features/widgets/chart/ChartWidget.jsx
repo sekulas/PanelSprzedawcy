@@ -1,14 +1,16 @@
 import { useContext } from "react";
 import LanguageContext from '../../languages/LanguageContext';
+import WidgetTypeBox from "../WidgetTypeBox";
+
 const ChartWidget = () => {
+
     const { dictionary } = useContext(LanguageContext);
+
     return (
     <div className="widget">
-        <div className="widget_header">
-            <h3>
-                {dictionary.sellersPanel.salesChart.title}
-            </h3>
-        </div>
+
+        <WidgetTypeBox widgetType={dictionary.sellersPanel.salesChart.title}/>
+
         <div className="chart-widget_content_menu">
             <div className="chart-widget_content_choice">
                 <h3>{dictionary.sellersPanel.salesChart.measurement}</h3>

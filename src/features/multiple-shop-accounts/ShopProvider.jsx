@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { dictionaryList } from './ShopContext';
+import { dictionaryList, shopList } from './ShopContext';
 import ShopContext from './ShopContext';
 
 const ShopProvider = ({ children }) => {
@@ -11,7 +11,7 @@ const ShopProvider = ({ children }) => {
 
   const provider = {
     shop,
-    dictionary: dictionaryList[shop],
+    shopData: shopList[shop],
     changeShop,
   };
 

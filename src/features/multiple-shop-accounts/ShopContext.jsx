@@ -2,13 +2,13 @@ import { createContext } from 'react';
 import sklepol from './shop-accounts/sklepol.json';
 import januszex from './shop-accounts/januszex.json';
 
-export const dictionaryList = { sklepol, januszex };
+export const shopList = { sklepol, januszex };
 
 export const shopsOptions = {  sklepol: 'SKELPOL',  januszex: 'JANUSZEX' };
 
 const ShopContext = createContext({ 
   shop: 'sklepol', 
-  dictionary: dictionaryList.pl,
+  shopData: shopList.sklepol,
   changeShop: () => {},
 });
 
