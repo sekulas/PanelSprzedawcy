@@ -218,7 +218,7 @@ const ChartWidget = () => {
             </div>
         </div>
         <div className="chart-widget_content_chart">
-            { !slupkowy ?  <LineChart data={chartData}/>
+            { !slupkowy ?  <LineChart data={chartData} />
             : <BarChart data={chartData} />}
         </div>
         

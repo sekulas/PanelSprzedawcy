@@ -62,6 +62,7 @@ const RankingWidget = () => {
             <Offer offer={offers[1]}></Offer>
             <Offer offer={offers[2]}></Offer>
             <Offer offer={offers[3]}></Offer>
+            <Offer offer={offers[4]}></Offer>
         </div>
         
         </div>

@@ -15,43 +15,43 @@
   "sellersPanel": {
     "salesQuality": {
       "title": "Jakosc sprzedazy",
-      "qualityCategory": "Kategoria jakosci",
-      "qualityAssessment": "Ocena jakosci"
+      "qualityCategory": "KATEGORIA JAKOŚCI",
+      "qualityAssessment": "OCENA JAKOŚCI"
     },
     "orders": {
-      "title": "Zamowienia",
-      "unpaid": "Niezaplacone",
-      "unsent": "Niewyslane",
-      "returned": "Zwroty"
+      "title": "ZAMÓWIENIA",
+      "unpaid": "NIEOPŁACONE",
+      "unsent": "NEWYSŁANE",
+      "returned": "ZWROTY"
     },
     "offersRanking": {
       "title": "Ranking ofert",
-      "photo": "Zdjecie",
-      "name": "Nazwa",
-      "sold": "Sprzedanych",
-      "uniqueViews": "Unikalne wyswietlenie",
-      "mostCommon": "Najczęściej",
-      "leastOften": "Najrzadziej",
-      "purchased": "Kupowane"
+      "photo": "ZDJĘCIE",
+      "name": "NAZWA",
+      "sold": "SPRZEDANYCH",
+      "uniqueViews": "UNIKALNYCH WYŚWIETLEŃ",
+      "mostCommon": "NAJCZĘŚCIEJ",
+      "leastOften": "NAJRZADZIEJ",
+      "purchased": "KUPOWANE"
     },
     "salesChart": {
       "title": "Wykres sprzedazy",
-      "measurement": "Miara",
-      "chart": "Wykres",
-      "period": "Okres czasu",
-      "income": "Obrót",
-      "sold": "Sprzedanych",
-      "columnar": "Kolumnowy",
-      "linear": "Liniowy",
-      "today": "Dziś",
-      "thisWeek": "Obecny tydzień",
-      "previousWeek": "Poprzedni tydzień"
+      "measurement": "MIARA",
+      "chart": "WYKRES",
+      "period": "ZAKRES CZASU",
+      "income": "OBRÓT",
+      "sold": "SPRZEDANYCH",
+      "columnar": "KOLUMNOWY",
+      "linear": "LINIOWY",
+      "today": "DZIŚ",
+      "thisWeek": "OBECNY TYDZIEŃ",
+      "previousWeek": "POPRZEDNI TYDZIEŃ"
     },
     "customersOpinions": {
       "title": "Opinie klientow",
-      "today": "Dziś",
-      "thisWeek": "Obecny tydzień",
-      "previousWeek": "Poprzedni tydzień"
+      "today": "WSZYSTKIE",
+      "thisWeek": "POZYTYTNE",
+      "previousWeek": "NEGATYWNE"
     } 
   }
 }

@@ -16,43 +16,43 @@
   "sellersPanel": {
     "salesQuality": {
       "title": "Sales Quality",
-      "qualityCategory": "Quality Category",
-      "qualityAssessment": "Quality Assessment"
+      "qualityCategory": "QUALITY CATEGORY",
+      "qualityAssessment": "QUALITY ASSESSMENT"
     },
     "orders": { 
       "title": "Orders",
-      "unpaid": "Unpaid",
-      "unsent": "Unsent",
-      "returned": "Returned"
+      "unpaid": "UNPAID",
+      "unsent": "UNSENT",
+      "returned": "RETURNED"
     },
     "offersRanking": {
       "title": "Offers Ranking",
-      "photo": "Photo",
-      "name": "Name",
-      "sold": "Sold",
-      "uniqueViews": "Unique views",
-      "mostCommon": "Most common",
-      "leastOften": "Least often",
-      "purchased": "Purchased"
+      "photo": "PHOTO",
+      "name": "NAME",
+      "sold": "SOLD",
+      "uniqueViews": "UNIQUE VIEWS",
+      "mostCommon": "MOST COMMON",
+      "leastOften": "LEAST OFTEN",
+      "purchased": "PURCHASED"
     },
     "salesChart": {
       "title": "Sales Chart",
-      "measurement": "Measure",
-      "chart": "Chart",
-      "period": "Period",
-      "income": "Income",
-      "sold": "Sold",
-      "columnar": "Columnar",
-      "linear": "Linear",
-      "today": "Today",
-      "thisWeek": "This week",
-      "previousWeek": "Previous week"
+      "measurement": "MEASURE",
+      "chart": "CHART",
+      "period": "PERIOD",
+      "income": "INCOME",
+      "sold": "SOLD",
+      "columnar": "COLUMN",
+      "linear": "LINE",
+      "today": "TODAY",
+      "thisWeek": "THIS WEEK",
+      "previousWeek": "PREVIOUS WEEK"
     },
     "customersOpinions": {
       "title": "Customers Opinions",
-      "today": "Today",
-      "thisWeek": "This week",
-      "previousWeek": "Previous week"
+      "today": "ALL",
+      "thisWeek": "POSITIVE",
+      "previousWeek": "NEGATIVE"
     }
   }
 }
