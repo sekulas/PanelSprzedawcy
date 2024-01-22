@@ -1,5 +1,5 @@
 import Offer from "./Offer";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import LanguageContext from '../../languages/LanguageContext';
 import WidgetTypeBox from "../WidgetTypeBox";
 import ShopContext from "../../multiple-shop-accounts/ShopContext";
@@ -8,6 +8,15 @@ const RankingWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     const [mostOftenChosen, setMostOftenChosen] = useState(true);
     const { shopData } = useContext(ShopContext);
+    const [offers, setOffers] = useState(shopData.offers.common);
+
+    useEffect(() => {
+        if(mostOftenChosen) {
+            setOffers(shopData.offers.common)
+        } else {
+            setOffers(shopData.offers.rare)
+        }
+    },[shopData, mostOftenChosen])
 
     const handleClick = () => {
         setMostOftenChosen(!mostOftenChosen);
@@ -49,10 +58,10 @@ const RankingWidget = () => {
             </div>
         </div>
         <div className="ranking-widget_table_body">
-            <Offer offer={shopData.offers[0]}></Offer>
-            <Offer offer={shopData.offers[1]}></Offer>
-            <Offer offer={shopData.offers[2]}></Offer>
-            <Offer offer={shopData.offers[3]}></Offer>
+            <Offer offer={offers[0]}></Offer>
+            <Offer offer={offers[1]}></Offer>
+            <Offer offer={offers[2]}></Offer>
+            <Offer offer={offers[3]}></Offer>
         </div>
         
         </div>

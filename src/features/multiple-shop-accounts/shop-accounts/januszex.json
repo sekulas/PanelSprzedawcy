@@ -8,33 +8,61 @@
     "unsent": "20",
     "returned": "40"
   },
-  "offers": [
-    {
-      "photo": "photo1",
-      "name": "name1",
-      "soldAmount": "10",
-      "viewsAmount": "10"
-    },
-   {
-      "photo": "photo2",
-      "name": "name2",
-      "soldAmount": "20",
-      "viewsAmount": "20"
-    },
-    {
-      "photo": "photo3",
-      "name": "name3",
-      "soldAmount": "30",
-      "viewsAmount": "30"
-    },
-    {
-      "photo": "photo4",
-      "name": "name4",
-      "soldAmount": "40",
-      "viewsAmount": "40"
-    }
-  ],
-  "opinions": [
+  "offers": {
+    "rare": [
+      {
+        "photo": "photo321",
+        "name": "name2341",
+        "soldAmount": "430",
+        "viewsAmount": "430"
+      },
+      {
+        "photo": "photo4322",
+        "name": "name2422",
+        "soldAmount": "230",
+        "viewsAmount": "20034"
+      },
+      {
+        "photo": "photo27653",
+        "name": "name35673",
+        "soldAmount": "350",
+        "viewsAmount": "660"
+      },
+      {
+        "photo": "photo3dw4",
+        "name": "name4dw4",
+        "soldAmount": "460",
+        "viewsAmount": "470"
+      } 
+    ], 
+    "common": [
+      {
+        "photo": "photo221",
+        "name": "name121",
+        "soldAmount": "104380",
+        "viewsAmount": "1674300"
+      },
+      {
+        "photo": "photo3122",
+        "name": "name2322",
+        "soldAmount": "2032043",
+        "viewsAmount": "2003432"
+      },
+      {
+        "photo": "photo23",
+        "name": "name33",
+        "soldAmount": "303220",
+        "viewsAmount": "303420"
+      },
+      {
+        "photo": "photo1234",
+        "name": "name3244",
+        "soldAmount": "400321",
+        "viewsAmount": "402320"
+      } 
+    ] },
+  "opinions": {
+    "today": [
     {
       "note": "1",
       "comment": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
@@ -47,5 +75,196 @@
       "note": "2",
       "comment": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
     }
-  ]
+    ],
+    "thisWeek": [
+      {
+        "note": "1",
+        "comment": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      },
+      {
+        "note": "1",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "note": "3",
+        "comment": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      }
+      ],
+      "prevWeek": [
+        {
+          "note": "1",
+          "comment": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "note": "1",
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "note": "2",
+          "comment": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+        }
+        ]
+  },
+  "store": {
+    "income": {
+      "today": [
+        {
+          "label": "4:00",
+          "input": "432"
+        },
+        {
+          "label": "8:00",
+          "input": "243"
+        },
+        {
+          "label": "12:00",
+          "input": "342"
+        },
+        {
+          "label": "16:00",
+          "input": "454"
+        }
+      ],
+      "thisWeek": [
+        {
+          "label": "1",
+          "input": "2122"
+        },
+        {
+          "label": "2",
+          "input": "2126"
+        },
+        {
+          "label": "3",
+          "input": "1126"
+        },
+        {
+          "label": "4",
+          "input": "1436"
+        },        
+        {
+          "label": "5",
+          "input": "2463"
+        },
+        {
+          "label": "6",
+          "input": "1316"
+        },
+        {
+          "label": "7",
+          "input": "937"
+        }
+      ],
+      "prevWeek": [
+        {
+          "label": "1",
+          "input": "1235"
+        },
+        {
+          "label": "2",
+          "input": "2381"
+        },
+        {
+          "label": "3",
+          "input": "1842"
+        },
+        {
+          "label": "4",
+          "input": "2762"
+        },        
+        {
+          "label": "5",
+          "input": "2232"
+        },
+        {
+          "label": "6",
+          "input": "1525"
+        },
+        {
+          "label": "7",
+          "input": "2154"
+        }
+      ]
+    },
+    "sold": {
+      "today": [
+        {
+          "label": "4:00",
+          "input": "43"
+        },
+        {
+          "label": "8:00",
+          "input": "23"
+        },
+        {
+          "label": "12:00",
+          "input": "32"
+        },
+        {
+          "label": "16:00",
+          "input": "45"
+        }
+      ],
+      "thisWeek": [
+        {
+          "label": "1",
+          "input": "212"
+        },
+        {
+          "label": "2",
+          "input": "212"
+        },
+        {
+          "label": "3",
+          "input": "112"
+        },
+        {
+          "label": "4",
+          "input": "143"
+        },        
+        {
+          "label": "5",
+          "input": "243"
+        },
+        {
+          "label": "6",
+          "input": "131"
+        },
+        {
+          "label": "7",
+          "input": "93"
+        }
+      ],
+      "prevWeek": [
+        {
+          "label": "1",
+          "input": "123"
+        },
+        {
+          "label": "2",
+          "input": "231"
+        },
+        {
+          "label": "3",
+          "input": "184"
+        },
+        {
+          "label": "4",
+          "input": "276"
+        },        
+        {
+          "label": "5",
+          "input": "223"
+        },
+        {
+          "label": "6",
+          "input": "155"
+        },
+        {
+          "label": "7",
+          "input": "54"
+        }
+      ]
+    }
+  }
 }

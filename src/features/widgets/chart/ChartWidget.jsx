@@ -1,30 +1,125 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import LanguageContext from '../../languages/LanguageContext';
 import WidgetTypeBox from "../WidgetTypeBox";
 import LineChart from "./LineChart";
-import dataset from "../../ChartData"
 import BarChart from "./ColumnChart";
 import { Chart as ChartJS } from "chart.js/auto";
+import ShopContext from "../../multiple-shop-accounts/ShopContext";
 
 const ChartWidget = () => {
 
     const { dictionary } = useContext(LanguageContext);
+    const { shopData } = useContext(ShopContext);
     const [obrot, setObrot] = useState(true);
     const [slupkowy, setSlupkowy] = useState(true);
     const [period, setPeriod] = useState(0);
     const [chartData, setChartData] = useState({
-        labels: dataset.map((x) => x.label),
+        labels: shopData.store.income.today.map((x) => x.label),
         datasets: [{
-            data: dataset.map((x) => x.input)
+            data: shopData.store.income.today.map((x) => x.input)
         }]
     });
 
+    useEffect(() => {
+        if(obrot) {
+            if(period == 0) {
+                setChartData({
+                    labels: shopData.store.income.today.map((x) => x.label),
+                    datasets: [{
+                        data: shopData.store.income.today.map((x) => x.input)
+                    }]
+                });
+            } else if(period == 1) {
+                setChartData({
+                    labels: shopData.store.income.thisWeek.map((x) => x.label),
+                    datasets: [{
+                        data: shopData.store.income.thisWeek.map((x) => x.input)
+                    }]
+                });
+            } else if(period == 2) {
+                setChartData({
+                    labels: shopData.store.income.prevWeek.map((x) => x.label),
+                    datasets: [{
+                        data: shopData.store.income.prevWeek.map((x) => x.input)
+                    }]
+                });
+            }
+        } else {
+            if(period == 0) {
+                setChartData({
+                    labels: shopData.store.sold.today.map((x) => x.label),
+                    datasets: [{
+                        data: shopData.store.sold.today.map((x) => x.input)
+                    }]
+                });
+            } else if(period == 1) {
+                setChartData({
+                    labels: shopData.store.sold.thisWeek.map((x) => x.label),
+                    datasets: [{
+                        data: shopData.store.sold.thisWeek.map((x) => x.input)
+                    }]
+                });
+            } else if(period == 2) {
+                setChartData({
+                    labels: shopData.store.sold.prevWeek.map((x) => x.label),
+                    datasets: [{
+                        data: shopData.store.sold.prevWeek.map((x) => x.input)
+                    }]
+                });
+            }
+        }
+    }, [shopData])
+
     const setObrotTrue = () => {
         setObrot(true)
+        if(period == 0) {
+            setChartData({
+                labels: shopData.store.income.today.map((x) => x.label),
+                datasets: [{
+                    data: shopData.store.income.today.map((x) => x.input)
+                }]
+            });
+        } else if(period == 1) {
+            setChartData({
+                labels: shopData.store.income.thisWeek.map((x) => x.label),
+                datasets: [{
+                    data: shopData.store.income.thisWeek.map((x) => x.input)
+                }]
+            });
+        } else if(period == 2) {
+            setChartData({
+                labels: shopData.store.income.prevWeek.map((x) => x.label),
+                datasets: [{
+                    data: shopData.store.income.prevWeek.map((x) => x.input)
+                }]
+            });
+        }
     }
 
     const setObrotFalse = () => {
         setObrot(false)
+        if(period == 0) {
+            setChartData({
+                labels: shopData.store.sold.today.map((x) => x.label),
+                datasets: [{
+                    data: shopData.store.sold.today.map((x) => x.input)
+                }]
+            });
+        } else if(period == 1) {
+            setChartData({
+                labels: shopData.store.sold.thisWeek.map((x) => x.label),
+                datasets: [{
+                    data: shopData.store.sold.thisWeek.map((x) => x.input)
+                }]
+            });
+        } else if(period == 2) {
+            setChartData({
+                labels: shopData.store.sold.prevWeek.map((x) => x.label),
+                datasets: [{
+                    data: shopData.store.sold.prevWeek.map((x) => x.input)
+                }]
+            });
+        }
     }
 
     const setSlupkowyTrue = () => {
@@ -36,16 +131,62 @@ const ChartWidget = () => {
     }
 
     const setPeriod0 = () => {
-        setPeriod(0)
+        setPeriod(0);
+        if(obrot) {
+        setChartData({
+            labels: shopData.store.income.today.map((x) => x.label),
+            datasets: [{
+                data: shopData.store.income.today.map((x) => x.input)
+            }]
+        });
+    } else {
+        setChartData({
+            labels: shopData.store.sold.today.map((x) => x.label),
+            datasets: [{
+                data: shopData.store.sold.today.map((x) => x.input)
+            }]
+        });
+    }
     }
 
     const setPeriod1 = () => {
-        setPeriod(1)
+        setPeriod(1);
+        if(obrot){
+        setChartData({
+            labels: shopData.store.income.thisWeek.map((x) => x.label),
+            datasets: [{
+                data: shopData.store.income.thisWeek.map((x) => x.input)
+            }]
+        });
+    } else {
+        setChartData({
+            labels: shopData.store.sold.thisWeek.map((x) => x.label),
+            datasets: [{
+                data: shopData.store.sold.thisWeek.map((x) => x.input)
+            }]
+        });
+    }
     }
     
     const setPeriod2 = () => {
-        setPeriod(2)
+        setPeriod(2);
+        if(obrot) {
+        setChartData({
+            labels: shopData.store.income.prevWeek.map((x) => x.label),
+            datasets: [{
+                data: shopData.store.income.prevWeek.map((x) => x.input)
+            }]
+        });
     }
+    else {
+        setChartData({
+            labels: shopData.store.sold.prevWeek.map((x) => x.label),
+            datasets: [{
+                data: shopData.store.sold.prevWeek.map((x) => x.input)
+            }]
+        });
+    }
+}
 
     return (
     <div className="widget">
