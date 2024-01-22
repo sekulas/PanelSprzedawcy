@@ -1,6 +1,10 @@
 import { useContext, useState } from "react";
 import LanguageContext from '../../languages/LanguageContext';
 import WidgetTypeBox from "../WidgetTypeBox";
+import LineChart from "./LineChart";
+import dataset from "../../ChartData"
+import BarChart from "./ColumnChart";
+import { Chart as ChartJS } from "chart.js/auto";
 
 const ChartWidget = () => {
 
@@ -8,6 +12,12 @@ const ChartWidget = () => {
     const [obrot, setObrot] = useState(true);
     const [slupkowy, setSlupkowy] = useState(true);
     const [period, setPeriod] = useState(0);
+    const [chartData, setChartData] = useState({
+        labels: dataset.map((x) => x.label),
+        datasets: [{
+            data: dataset.map((x) => x.input)
+        }]
+    });
 
     const setObrotTrue = () => {
         setObrot(true)
@@ -61,7 +71,8 @@ const ChartWidget = () => {
             </div>
         </div>
         <div className="chart-widget_content_chart">
-            <h1>Tu będzie wykres</h1>
+            { !slupkowy ?  <LineChart data={chartData}/>
+            : <BarChart data={chartData} />}
         </div>
         
     </div>);
