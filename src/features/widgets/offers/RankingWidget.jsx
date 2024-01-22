@@ -47,11 +47,11 @@ const RankingWidget = () => {
             </div>
         </div>
         <div className="ranking-widget_table_body">
-            <Offer></Offer>
-            <Offer></Offer>
-            <Offer></Offer>
-            <Offer></Offer>
-            <Offer></Offer>
+            <Offer name="name" photo="photo" soldAmount="25" displayedAmount="100"></Offer>
+            <Offer name="name" photo="photo" soldAmount="25" displayedAmount="100"></Offer>
+            <Offer name="name" photo="photo" soldAmount="25" displayedAmount="100"></Offer>
+            <Offer name="name" photo="photo" soldAmount="25" displayedAmount="100"></Offer>
+            <Offer name="name" photo="photo" soldAmount="25" displayedAmount="100"></Offer>
         </div>
         
         </div>
