@@ -4,11 +4,11 @@ const Opinion = (props) => {
         <div className="opinion">
             <div className="opinion_reaction">
                 <HappyIcon className="opinion_reaction-icon"></HappyIcon>
-                <h3>{props.note}/5</h3>
+                <h3>{props.option["note"]}/5</h3>
             </div>
             <div className="opinion_content">
                 <h5>
-                    {props.comment}
+                    {props.option["comment"]}
                 </h5>
             </div>
         </div>

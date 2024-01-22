@@ -3,10 +3,12 @@ import { useNavigate } from "react-router-dom";
 import WidgetTypeBox from "../WidgetTypeBox";
 import { useContext, useState } from "react";
 import LanguageContext from '../../languages/LanguageContext';
+import ShopContext from "../../multiple-shop-accounts/ShopContext";
 
 const OpinionWidget = () => {
     const { dictionary } = useContext(LanguageContext);
     const [period, setPeriod] = useState(0);
+    const { shopData } = useContext(ShopContext);
 
     const setPeriod0 = () => {
         setPeriod(0)
@@ -35,10 +37,9 @@ const OpinionWidget = () => {
                 <button className={`opinion-widget_content_choice_option_3 ${period == 2 ? 'opinion-widget_content_choice_option_clicked' : ''}`} onClick={setPeriod2}>{dictionary.sellersPanel.customersOpinions.previousWeek}</button>
             </div>
         <div className="opinion-widget_content">
-            <Opinion note="5" comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Opinion>
-            <Opinion note="5" comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Opinion>    
-            <Opinion note="5" comment="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Opinion>
-        
+            <Opinion option={shopData.opinions[0]}></Opinion>
+            <Opinion option={shopData.opinions[1]}></Opinion>    
+            <Opinion option={shopData.opinions[2]}></Opinion>
         </div>
     </div>);
 }
