@@ -8,7 +8,8 @@
     "unsent": "4",
     "returned": "10"
   },
-  "offers": [
+  "offers": {
+  "rare": [
     {
       "photo": "photo21",
       "name": "name21",
@@ -33,7 +34,33 @@
       "soldAmount": "400",
       "viewsAmount": "400"
     } 
-  ],
+  ], 
+  "common": [
+    {
+      "photo": "photo221",
+      "name": "name121",
+      "soldAmount": "1080",
+      "viewsAmount": "16700"
+    },
+    {
+      "photo": "photo3122",
+      "name": "name2322",
+      "soldAmount": "20320",
+      "viewsAmount": "20032"
+    },
+    {
+      "photo": "photo23",
+      "name": "name33",
+      "soldAmount": "30320",
+      "viewsAmount": "30320"
+    },
+    {
+      "photo": "photo1234",
+      "name": "name3244",
+      "soldAmount": "400321",
+      "viewsAmount": "402320"
+    } 
+  ] },
   "opinions": [
     {
       "note": "5",

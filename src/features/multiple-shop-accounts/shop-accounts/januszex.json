@@ -8,32 +8,59 @@
     "unsent": "20",
     "returned": "40"
   },
-  "offers": [
-    {
-      "photo": "photo1",
-      "name": "name1",
-      "soldAmount": "10",
-      "viewsAmount": "10"
-    },
-   {
-      "photo": "photo2",
-      "name": "name2",
-      "soldAmount": "20",
-      "viewsAmount": "20"
-    },
-    {
-      "photo": "photo3",
-      "name": "name3",
-      "soldAmount": "30",
-      "viewsAmount": "30"
-    },
-    {
-      "photo": "photo4",
-      "name": "name4",
-      "soldAmount": "40",
-      "viewsAmount": "40"
-    }
-  ],
+  "offers": {
+    "rare": [
+      {
+        "photo": "photo321",
+        "name": "name2341",
+        "soldAmount": "430",
+        "viewsAmount": "430"
+      },
+      {
+        "photo": "photo4322",
+        "name": "name2422",
+        "soldAmount": "230",
+        "viewsAmount": "20034"
+      },
+      {
+        "photo": "photo27653",
+        "name": "name35673",
+        "soldAmount": "350",
+        "viewsAmount": "660"
+      },
+      {
+        "photo": "photo3dw4",
+        "name": "name4dw4",
+        "soldAmount": "460",
+        "viewsAmount": "470"
+      } 
+    ], 
+    "common": [
+      {
+        "photo": "photo221",
+        "name": "name121",
+        "soldAmount": "104380",
+        "viewsAmount": "1674300"
+      },
+      {
+        "photo": "photo3122",
+        "name": "name2322",
+        "soldAmount": "2032043",
+        "viewsAmount": "2003432"
+      },
+      {
+        "photo": "photo23",
+        "name": "name33",
+        "soldAmount": "303220",
+        "viewsAmount": "303420"
+      },
+      {
+        "photo": "photo1234",
+        "name": "name3244",
+        "soldAmount": "400321",
+        "viewsAmount": "402320"
+      } 
+    ] },
   "opinions": [
     {
       "note": "1",
