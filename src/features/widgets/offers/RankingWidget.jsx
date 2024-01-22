@@ -15,20 +15,20 @@ const RankingWidget = () => {
     <div className="widget">
         <WidgetTypeBox widgetType={dictionary.sellersPanel.offersRanking.title}/>
         <div className="ranking-widget_content_choice">
-            <h3 className="ranking-widget_content_choice_name_3">Kupowane</h3>
+            <h3 className="ranking-widget_content_choice_name_3">{dictionary.sellersPanel.offersRanking.purchased}</h3>
             <button
                 className={`ranking-widget_content_choice_option_3 ${
                     mostOftenChosen ? 'ranking-widget_content_choice_option_clicked' : ''}`}
                 onClick={handleClick}
             >
-                Najczesciej
+                {dictionary.sellersPanel.offersRanking.mostCommon}
             </button>
             <button
                 className={`ranking-widget_content_choice_option_3 ${
                     !mostOftenChosen ? 'ranking-widget_content_choice_option_clicked' : ''}`}
                 onClick={handleClick}
             >
-                Najrzadziej
+                {dictionary.sellersPanel.offersRanking.leastOften}
             </button>
         </div>
         <div className="ranking-widget_table">

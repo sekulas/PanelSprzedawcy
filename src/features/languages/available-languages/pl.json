@@ -29,16 +29,29 @@
       "photo": "Zdjecie",
       "name": "Nazwa",
       "sold": "Sprzedanych",
-      "uniqueViews": "Unikalne wyswietlenie"
+      "uniqueViews": "Unikalne wyswietlenie",
+      "mostCommon": "Najczęściej",
+      "leastOften": "Najrzadziej",
+      "purchased": "Kupowane"
     },
     "salesChart": {
       "title": "Wykres sprzedazy",
       "measurement": "Miara",
       "chart": "Wykres",
-      "period": "Okres czasu"
+      "period": "Okres czasu",
+      "income": "Obrót",
+      "sold": "Sprzedanych",
+      "columnar": "Kolumnowy",
+      "linear": "Liniowy",
+      "today": "Dziś",
+      "thisWeek": "Obecny tydzień",
+      "previousWeek": "Poprzedni tydzień"
     },
     "customersOpinions": {
-      "title": "Opinie klientow"
+      "title": "Opinie klientow",
+      "today": "Dziś",
+      "thisWeek": "Obecny tydzień",
+      "previousWeek": "Poprzedni tydzień"
     } 
   }
 }

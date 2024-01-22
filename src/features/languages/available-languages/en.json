@@ -30,16 +30,29 @@
       "photo": "Photo",
       "name": "Name",
       "sold": "Sold",
-      "uniqueViews": "Unique views"
+      "uniqueViews": "Unique views",
+      "mostCommon": "Most common",
+      "leastOften": "Least often",
+      "purchased": "Purchased"
     },
     "salesChart": {
       "title": "Sales Chart",
-      "measurement": "Measurement",
+      "measurement": "Measure",
       "chart": "Chart",
-      "period": "Period"
+      "period": "Period",
+      "income": "Income",
+      "sold": "Sold",
+      "columnar": "Columnar",
+      "linear": "Linear",
+      "today": "Today",
+      "thisWeek": "This week",
+      "previousWeek": "Previous week"
     },
     "customersOpinions": {
-      "title": "Customers Opinions"
+      "title": "Customers Opinions",
+      "today": "Today",
+      "thisWeek": "This week",
+      "previousWeek": "Previous week"
     }
   }
 }
