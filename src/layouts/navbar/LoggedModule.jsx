@@ -26,7 +26,7 @@ const LoggedModule = () => {
         <LanguageSelector />
       </div>
         <LightModeIcon />
-      <button onClick={logout}>{dictionary.navbar.logout}</button>
+      <button onClick={logout} className="log-out-button">{dictionary.navbar.logout}</button>
     </div>
   )
 }

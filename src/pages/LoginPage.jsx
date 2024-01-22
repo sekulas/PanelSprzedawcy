@@ -50,9 +50,7 @@ const LoginPage = () => {
                     onChange={handlePasswordChange}
                   />
                   <br/>
-                  <div id="login-buttons">
-                    <button onClick={handleLogin}>{dictionary.loginPage.login}</button>
-                  </div>
+                  <button id="login-button" onClick={handleLogin}>{dictionary.loginPage.login}</button>
             </div>
           )
       }
