@@ -47,5 +47,167 @@
       "note": "5",
       "comment": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
     }
-  ]
+  ],
+  "store": {
+    "sold": {
+      "today": [
+        {
+          "label": "4:00",
+          "input": "34"
+        },
+        {
+          "label": "8:00",
+          "input": "43"
+        },
+        {
+          "label": "12:00",
+          "input": "23"
+        },
+        {
+          "label": "16:00",
+          "input": "17"
+        }
+      ],
+      "thisWeek": [
+        {
+          "label": "1",
+          "input": "234"
+        },
+        {
+          "label": "2",
+          "input": "214"
+        },
+        {
+          "label": "3",
+          "input": "123"
+        },
+        {
+          "label": "4",
+          "input": "197"
+        },        
+        {
+          "label": "5",
+          "input": "256"
+        },
+        {
+          "label": "6",
+          "input": "153"
+        },
+        {
+          "label": "7",
+          "input": "97"
+        }
+      ],
+      "prevWeek": [
+        {
+          "label": "1",
+          "input": "287"
+        },
+        {
+          "label": "2",
+          "input": "264"
+        },
+        {
+          "label": "3",
+          "input": "234"
+        },
+        {
+          "label": "4",
+          "input": "237"
+        },        
+        {
+          "label": "5",
+          "input": "223"
+        },
+        {
+          "label": "6",
+          "input": "134"
+        },
+        {
+          "label": "7",
+          "input": "56"
+        }
+      ]
+    },
+    "income": {
+      "today": [
+        {
+          "label": "4:00",
+          "input": "343"
+        },
+        {
+          "label": "8:00",
+          "input": "273"
+        },
+        {
+          "label": "12:00",
+          "input": "325"
+        },
+        {
+          "label": "16:00",
+          "input": "457"
+        }
+      ],
+      "thisWeek": [
+        {
+          "label": "1",
+          "input": "2142"
+        },
+        {
+          "label": "2",
+          "input": "2172"
+        },
+        {
+          "label": "3",
+          "input": "1162"
+        },
+        {
+          "label": "4",
+          "input": "1463"
+        },        
+        {
+          "label": "5",
+          "input": "2453"
+        },
+        {
+          "label": "6",
+          "input": "1341"
+        },
+        {
+          "label": "7",
+          "input": "983"
+        }
+      ],
+      "prevWeek": [
+        {
+          "label": "1",
+          "input": "2123"
+        },
+        {
+          "label": "2",
+          "input": "2731"
+        },
+        {
+          "label": "3",
+          "input": "2184"
+        },
+        {
+          "label": "4",
+          "input": "2576"
+        },        
+        {
+          "label": "5",
+          "input": "2223"
+        },
+        {
+          "label": "6",
+          "input": "1554"
+        },
+        {
+          "label": "7",
+          "input": "544"
+        }
+      ]
+    }
+  }
 }

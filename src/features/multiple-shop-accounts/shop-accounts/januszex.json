@@ -47,5 +47,167 @@
       "note": "2",
       "comment": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
     }
-  ]
+  ],
+  "store": {
+    "income": {
+      "today": [
+        {
+          "label": "4:00",
+          "input": "432"
+        },
+        {
+          "label": "8:00",
+          "input": "243"
+        },
+        {
+          "label": "12:00",
+          "input": "342"
+        },
+        {
+          "label": "16:00",
+          "input": "454"
+        }
+      ],
+      "thisWeek": [
+        {
+          "label": "1",
+          "input": "2122"
+        },
+        {
+          "label": "2",
+          "input": "2126"
+        },
+        {
+          "label": "3",
+          "input": "1126"
+        },
+        {
+          "label": "4",
+          "input": "1436"
+        },        
+        {
+          "label": "5",
+          "input": "2463"
+        },
+        {
+          "label": "6",
+          "input": "1316"
+        },
+        {
+          "label": "7",
+          "input": "937"
+        }
+      ],
+      "prevWeek": [
+        {
+          "label": "1",
+          "input": "1235"
+        },
+        {
+          "label": "2",
+          "input": "2381"
+        },
+        {
+          "label": "3",
+          "input": "1842"
+        },
+        {
+          "label": "4",
+          "input": "2762"
+        },        
+        {
+          "label": "5",
+          "input": "2232"
+        },
+        {
+          "label": "6",
+          "input": "1525"
+        },
+        {
+          "label": "7",
+          "input": "2154"
+        }
+      ]
+    },
+    "sold": {
+      "today": [
+        {
+          "label": "4:00",
+          "input": "43"
+        },
+        {
+          "label": "8:00",
+          "input": "23"
+        },
+        {
+          "label": "12:00",
+          "input": "32"
+        },
+        {
+          "label": "16:00",
+          "input": "45"
+        }
+      ],
+      "thisWeek": [
+        {
+          "label": "1",
+          "input": "212"
+        },
+        {
+          "label": "2",
+          "input": "212"
+        },
+        {
+          "label": "3",
+          "input": "112"
+        },
+        {
+          "label": "4",
+          "input": "143"
+        },        
+        {
+          "label": "5",
+          "input": "243"
+        },
+        {
+          "label": "6",
+          "input": "131"
+        },
+        {
+          "label": "7",
+          "input": "93"
+        }
+      ],
+      "prevWeek": [
+        {
+          "label": "1",
+          "input": "123"
+        },
+        {
+          "label": "2",
+          "input": "231"
+        },
+        {
+          "label": "3",
+          "input": "184"
+        },
+        {
+          "label": "4",
+          "input": "276"
+        },        
+        {
+          "label": "5",
+          "input": "223"
+        },
+        {
+          "label": "6",
+          "input": "155"
+        },
+        {
+          "label": "7",
+          "input": "54"
+        }
+      ]
+    }
+  }
 }
