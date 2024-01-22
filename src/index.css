@@ -255,7 +255,10 @@ code {
 }
 
 .ranking-widget_table_header {
-  background-color: #aaa;
+  background-color: #E2E2E2;
+  height: 4vh;
+  font-size: 0.6em;
+  align-items: center;
 }
 
 .ranking-widget_content_choice {

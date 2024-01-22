@@ -45,16 +45,16 @@ const RankingWidget = () => {
         <div className="ranking-widget_table">
         <div className="ranking-widget_table_header">
             <div className="ranking-widget_table-column-photo ranking-widget_table-cell">
-                <h3>{dictionary.sellersPanel.offersRanking.photo}</h3>
+                <p>{dictionary.sellersPanel.offersRanking.photo}</p>
             </div>
             <div className="ranking-widget_table-column-name ranking-widget_table-cell">
-                <h3>{dictionary.sellersPanel.offersRanking.name}</h3>
+                <p>{dictionary.sellersPanel.offersRanking.name}</p>
             </div>
             <div className="ranking-widget_table-column-sold-amount ranking-widget_table-cell">
-                <h3>{dictionary.sellersPanel.offersRanking.sold}</h3>
+                <p>{dictionary.sellersPanel.offersRanking.sold}</p>
             </div>
             <div className="ranking-widget_table-column-displayed-amount ranking-widget_table-cell">
-                <h3>{dictionary.sellersPanel.offersRanking.uniqueViews}</h3>
+                <p>{dictionary.sellersPanel.offersRanking.uniqueViews}</p>
             </div>
         </div>
         <div className="ranking-widget_table_body">
