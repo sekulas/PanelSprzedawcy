@@ -369,12 +369,11 @@ input {
   margin: 0;
 }
 
-<<<<<<< HEAD
 .quality-grade {
   font-size: 4em;
   font-style: bold;
-=======
+}
+
 .chart-widget_content_chart > * {
   margin: auto;
->>>>>>> 6c42d0d7463be23c9b377f88b7234a0ed883001d
 }
