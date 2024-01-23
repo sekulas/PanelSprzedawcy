@@ -22,7 +22,9 @@ code {
   align-items: center;
   height: 5vh;
   color: white;
-  fill: white
+  fill: white;
+  position: sticky;
+  top: 0;
 }
 
 #navbar-module {
