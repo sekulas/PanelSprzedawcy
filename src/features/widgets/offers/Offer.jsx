@@ -2,7 +2,7 @@ const Offer = (props) => {
     return (
         <div className="offer">
             <div className="ranking-widget_table-column-photo ranking-widget_table-cell">
-                <h3>{props.offer["photo"]}</h3>
+                <img src={props.offer["photo"]}/>
             </div>
             <div className="ranking-widget_table-column-name ranking-widget_table-cell">
                 <h3>{props.offer["name"]}</h3>

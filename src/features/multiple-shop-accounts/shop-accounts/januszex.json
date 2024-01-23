@@ -17,31 +17,31 @@
     "rare": [
       {
         "photo": "photo321",
-        "name": "name2341",
+        "name": "taczka",
         "soldAmount": "430",
         "viewsAmount": "430"
       },
       {
         "photo": "photo4322",
-        "name": "name2422",
+        "name": "kielnia",
         "soldAmount": "230",
         "viewsAmount": "20034"
       },
       {
         "photo": "photo27653",
-        "name": "name35673",
+        "name": "szlifierka",
         "soldAmount": "350",
         "viewsAmount": "660"
       },
       {
         "photo": "photo3dw4",
-        "name": "name4dw4",
+        "name": "wiertarka",
         "soldAmount": "460",
         "viewsAmount": "470"
       } ,
       {
         "photo": "photo87dw3",
-        "name": "name874gf5",
+        "name": "kowadlo",
         "soldAmount": "561",
         "viewsAmount": "503"
       } 
@@ -49,31 +49,31 @@
     "common": [
       {
         "photo": "photo221",
-        "name": "name121",
+        "name": "kij",
         "soldAmount": "104380",
         "viewsAmount": "1674300"
       },
       {
         "photo": "photo3122",
-        "name": "name2322",
+        "name": "cement",
         "soldAmount": "2032043",
         "viewsAmount": "2003432"
       },
       {
         "photo": "photo23",
-        "name": "name33",
+        "name": "cyrklowka",
         "soldAmount": "303220",
         "viewsAmount": "303420"
       },
       {
         "photo": "photo1234",
-        "name": "name3244",
+        "name": "rusztowanie",
         "soldAmount": "400321",
         "viewsAmount": "402320"
       } ,
       {
         "photo": "photo8753",
-        "name": "name8745",
+        "name": "farba",
         "soldAmount": "440561",
         "viewsAmount": "503890"
       } 

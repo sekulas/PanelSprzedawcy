@@ -17,31 +17,31 @@
   "rare": [
     {
       "photo": "photo21",
-      "name": "name21",
+      "name": "kufel",
       "soldAmount": "100",
       "viewsAmount": "100"
     },
     {
       "photo": "photo22",
-      "name": "name22",
+      "name": "kieliszki",
       "soldAmount": "200",
       "viewsAmount": "200"
     },
     {
       "photo": "photo23",
-      "name": "name33",
+      "name": "piwo",
       "soldAmount": "300",
       "viewsAmount": "300"
     },
     {
       "photo": "photo34",
-      "name": "name44",
+      "name": "whisky",
       "soldAmount": "400",
       "viewsAmount": "400"
     },
     {
       "photo": "photo314",
-      "name": "name444",
+      "name": "notfound404",
       "soldAmount": "500",
       "viewsAmount": "500"
     } 
@@ -49,31 +49,31 @@
   "common": [
     {
       "photo": "photo221",
-      "name": "name121",
+      "name": "herbata",
       "soldAmount": "1080",
       "viewsAmount": "16700"
     },
     {
       "photo": "photo3122",
-      "name": "name2322",
+      "name": "kawa",
       "soldAmount": "20320",
       "viewsAmount": "20032"
     },
     {
       "photo": "photo23",
-      "name": "name33",
+      "name": "szklanki",
       "soldAmount": "30320",
       "viewsAmount": "30320"
     },
     {
       "photo": "photo1234",
-      "name": "name3244",
+      "name": "kubki",
       "soldAmount": "400321",
       "viewsAmount": "402320"
     },
     {
       "photo": "photo1654",
-      "name": "name4234",
+      "name": "czajnik",
       "soldAmount": "724001",
       "viewsAmount": "732445"
     } 
