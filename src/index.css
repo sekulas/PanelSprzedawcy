@@ -217,17 +217,6 @@ code {
   height: 300px;
 }
 
-.opinion {
-  display: flex;
-  border: 1px solid #7A8CFF;
-}
-
-.opinion_content {
-  position: relative;
-  width: 90%;
-  margin: auto;
-}
-
 .ranking-widget_table_header,
 .offer {
   display: flex;
@@ -327,4 +316,42 @@ input {
 
 .aspectList__header h3 {
   margin: 1rem;
+}
+
+.opinion {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #7A8CFF;
+}
+
+.opinion_content {
+  padding: 0px 10px;
+  flex-grow: 1;
+  text-align: top;
+}
+
+.opinion_content > p {
+  margin: 2vh;
+  font-size: 0.8em;
+}
+
+.opinion_reaction {
+  padding: 5px;
+  justify-content: top;
+  text-align: center;
+}
+
+.opinion_reaction-icon {
+  width: 47px;
+  height: 47px;
+}
+
+.opinion_note {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.opinion_note > p {
+  margin: 0;
 }
