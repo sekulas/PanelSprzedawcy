@@ -96,6 +96,10 @@
     {
       "note": "4",
       "comment": "Niczego sobie, jestem usatysfakcjonowany"
+    }, 
+    {
+      "note": "4",
+      "comment": "Bardzo dobra chiska porcelana"
     }
     ],
     "thisWeek": [
@@ -114,6 +118,10 @@
       {
         "note": "5",
         "comment": "Produkt zgodny z opisem:) Polecam"
+      },
+      {
+        "note": "5",
+        "comment": "Produkt zgodny z opisem, naprawde goraco polecam"
       }
       ],
       "prevWeek": [
@@ -132,6 +140,10 @@
         {
           "note": "1",
           "comment": "Nie polecam:/"
+        },
+        {
+          "note": "1",
+          "comment": "Bardzo slaba jakosc produktu:/"
         }
         ]
   },

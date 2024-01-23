@@ -42,6 +42,7 @@ return(<div>
         <Opinion option={opinions[1]}></Opinion>    
         <Opinion option={opinions[2]}></Opinion>
         <Opinion option={opinions[3]}></Opinion>
+        <Opinion option={opinions[4]}></Opinion>
     </div>
 </div>);
 }
