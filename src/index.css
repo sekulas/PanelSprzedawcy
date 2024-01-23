@@ -355,3 +355,7 @@ input {
 .opinion_note > p {
   margin: 0;
 }
+
+.chart-widget_content_chart > * {
+  margin: auto;
+}

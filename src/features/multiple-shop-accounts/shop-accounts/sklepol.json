@@ -96,6 +96,10 @@
     {
       "note": "5",
       "comment": "Gdzie tu sie wpisuje komentarz"
+    }, 
+    {
+      "note": "5",
+      "comment": "Naprawde szczerze polecam"
     }
   ],
   "thisWeek": [
@@ -114,6 +118,10 @@
     {
       "note": "5",
       "comment": "Szybko i sprawnie"
+    },
+    {
+      "note": "5",
+      "comment": "Cudownej jakosci produkty"
     }
   ],
   "prevWeek": [
@@ -132,6 +140,10 @@
     {
       "note": "1",
       "comment": "Szczerze nie polecam tego sprzedawcy"
+    },
+    {
+      "note": "1",
+      "comment": "Ten produkt to jakis zart"
     }
   ]},
   "store": {
