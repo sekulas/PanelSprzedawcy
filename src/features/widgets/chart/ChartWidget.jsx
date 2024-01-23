@@ -195,21 +195,21 @@ const ChartWidget = () => {
 
         <div className="chart-widget_content_menu">
             <div className="chart-widget_content_choice">
-                <h3>{dictionary.sellersPanel.salesChart.measurement}</h3>
+                <p>{dictionary.sellersPanel.salesChart.measurement}</p>
                 <div className="button-container">
                     <button className={`chart-widget_content_choice_option_2 ${obrot ? 'chart-widget_content_choice_option_clicked' : ""}`} onClick={setObrotTrue}>{dictionary.sellersPanel.salesChart.income}</button>
                     <button className={`chart-widget_content_choice_option_2 ${!obrot ? 'chart-widget_content_choice_option_clicked' : ""}`} onClick={setObrotFalse}>{dictionary.sellersPanel.salesChart.sold}</button>
                 </div>
             </div>
             <div className="chart-widget_content_choice">
-                <h3>{dictionary.sellersPanel.salesChart.chart}</h3>
+                <p>{dictionary.sellersPanel.salesChart.chart}</p>
                 <div className="button-container">
                     <button className={`chart-widget_content_choice_option_2 ${slupkowy ? 'chart-widget_content_choice_option_clicked' : ""}`} onClick={setSlupkowyTrue}>{dictionary.sellersPanel.salesChart.columnar}</button>
                     <button className={`chart-widget_content_choice_option_2 ${!slupkowy ? 'chart-widget_content_choice_option_clicked' : ""}`} onClick={setSlupkowyFalse}>{dictionary.sellersPanel.salesChart.linear}</button>
                 </div>
             </div>
             <div className="chart-widget_content_choice">
-                <h3>{dictionary.sellersPanel.salesChart.period}</h3>
+                <p>{dictionary.sellersPanel.salesChart.period}</p>
                 <div className="button-container">
                     <button className={`chart-widget_content_choice_option_3 ${period==0 ? 'chart-widget_content_choice_option_clicked' : ""}`} onClick={setPeriod0}>{dictionary.sellersPanel.salesChart.today}</button>
                     <button className={`chart-widget_content_choice_option_3 ${period==1 ? 'chart-widget_content_choice_option_clicked' : ""}`} onClick={setPeriod1}>{dictionary.sellersPanel.salesChart.thisWeek}</button>

@@ -33,7 +33,7 @@
       "uniqueViews": "UNIKALNYCH WYŚWIETLEŃ",
       "mostCommon": "NAJCZĘŚCIEJ",
       "leastOften": "NAJRZADZIEJ",
-      "purchased": "KUPOWANE"
+      "purchased": "KUPOWANE:"
     },
     "salesChart": {
       "title": "Wykres sprzedazy",
@@ -53,6 +53,6 @@
       "today": "WSZYSTKIE",
       "thisWeek": "POZYTYTNE",
       "previousWeek": "NEGATYWNE"
-    } 
+    }
   }
 }

@@ -20,7 +20,7 @@
       "qualityAssessment": "QUALITY ASSESSMENT",
       "aspects": "WEAKEST ASPECTS"
     },
-    "orders": { 
+    "orders": {
       "title": "Orders",
       "unpaid": "UNPAID",
       "unsent": "UNSENT",
@@ -34,7 +34,7 @@
       "uniqueViews": "UNIQUE VIEWS",
       "mostCommon": "MOST COMMON",
       "leastOften": "LEAST OFTEN",
-      "purchased": "PURCHASED"
+      "purchased": "PURCHASED:"
     },
     "salesChart": {
       "title": "Sales Chart",

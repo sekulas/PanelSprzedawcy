@@ -11,7 +11,7 @@ const Quality = () => {
             <div className="quality-widget_content_elem">
                 <div>
                 <h3>{dictionary.sellersPanel.salesQuality.qualityCategory}</h3> 
-                <h3>{shopData.quality.category}</h3>
+                <p className="quality-grade">{shopData.quality.category}</p>
                 </div>
             </div>
             <div className="quality-widget_content_elem">
