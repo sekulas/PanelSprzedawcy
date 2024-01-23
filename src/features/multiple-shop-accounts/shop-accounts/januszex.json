@@ -1,7 +1,12 @@
 {
   "quality": {
     "category": "F",
-    "assessment": "1/5"
+    "assessment": "1/5",
+    "aspects": [
+      "Wysokie ceny",
+      "Wysokie koszty",
+      "Lorem ipsum"
+    ]
   },
   "orders": {
     "unpaid": "10",

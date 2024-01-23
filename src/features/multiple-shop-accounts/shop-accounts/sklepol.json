@@ -1,7 +1,12 @@
 {
   "quality": {
     "category": "S",
-    "assessment": "5/5"
+    "assessment": "5/5",
+    "aspects": [
+      "Słaby marketing",
+      "Wysokie obciążenie pracą pracowników",
+      "Ubogać ofertę"
+    ]
   },
   "orders": {
     "unpaid": "20",

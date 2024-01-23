@@ -16,7 +16,8 @@
     "salesQuality": {
       "title": "Jakosc sprzedazy",
       "qualityCategory": "KATEGORIA JAKOŚCI",
-      "qualityAssessment": "OCENA JAKOŚCI"
+      "qualityAssessment": "OCENA JAKOŚCI",
+      "aspects": "NAJSŁABSZE ASPEKTY"
     },
     "orders": {
       "title": "ZAMÓWIENIA",

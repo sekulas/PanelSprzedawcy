@@ -17,7 +17,8 @@
     "salesQuality": {
       "title": "Sales Quality",
       "qualityCategory": "QUALITY CATEGORY",
-      "qualityAssessment": "QUALITY ASSESSMENT"
+      "qualityAssessment": "QUALITY ASSESSMENT",
+      "aspects": "WEAKEST ASPECTS"
     },
     "orders": { 
       "title": "Orders",

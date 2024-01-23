@@ -9,16 +9,16 @@ const AspectsList = () => {
     return (
         <div>
             <div class="aspectList__header">
-                <h3>Najsłabsze aspekty</h3>
+                <h3>{dictionary.sellersPanel.salesQuality.aspects}</h3>
             </div>
             <div class="aspectList__element">
-                <p>Najsłabsze aspekty</p>
+                <p>1. {shopData.quality.aspects[0]}</p>
             </div>
             <div class="aspectList__element">
-                <p>Najsłabsze aspekty</p>
+                <p>2. {shopData.quality.aspects[1]}</p>
             </div>
             <div class="aspectList__element">
-                <p>Najsłabsze aspekty</p>
+                <p>3. {shopData.quality.aspects[2]}</p>
             </div>
         </div>
     )
